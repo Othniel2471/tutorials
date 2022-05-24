@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+/>
+<!-- bootstrap css -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- css file -->
+<link rel="stylesheet" href="./css/styles.css" />
+
+<body>
+    <nav>
+        <div class="nav-center">
+            <!-- nav-header -->
+            <div class="nav-header">
+                <img src="./images/Flowerapp.svg" class="logo" alt="logo" />
+                <button class="nav-toggle" id="nav_toggler" onclick="()=>console.log('gd')">
+            <i class="fas fa-bars"></i>
+          </button>
+            </div>
+            <!-- links -->
+            <ul class="links links-hidden" id="nav_links">
+                <li>
+                    <a href="index.html">Product</a>
+                </li>
+                <li>
+                    <a href="about.html">services</a>
+                </li>
+                <li>
+                    <a href="projects.html">contact</a>
+                </li>
+                <li>
+                    <a href="contact.html">login</a>
+                </li>
+            </ul>
+            <!-- social media -->
+            <ul class="social-icons">
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fab fa-behance"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fab fa-sketch"></i>
+                    </a>
+                </li>
+            </ul>
+            <li class="nav-btn">
+                <a href="">
+                    <button>try it free</button>
+                </a>
+            </li>
+        </div>
+    </nav>
+
+
+    <section class="main">
+        <div class="header1">
+            <h1>
+                Flowers that <br /> Everyone <br /> Loves
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet,
+                <br /> consectetur adipiscing elit. <br /> Dui tristique a eu, viverra <br /> maecenas.
+            </p>
+            <div class="buts">
+                <div>
+                    <button class="btn-free modal-btn">Try It Free</button>
+                </div>
+                <div>
+                    <button class="btn-demo">Get a Demo</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flower">
+            <img src="./images/my flower.png" alt="" />
+        </div>
+    </section>
+
+    <section class="header2">
+        <div class="blue">
+            <h1>Blue Flowers</h1>
+        </div>
+        <div class="blue-p">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+                sem. Nulla consequat massa.
+            </p>
+        </div>
+        <div>
+            <img src="./images/chat 1.png" alt="" />
+        </div>
+    </section>
+
+    <section class="header3">
+        <div class="flow">
+            <img src="./images/chat2.png" alt=""/>
+        </div>
+        <div class="small">
+            <h1>
+                perfect solution for small businesses
+            </h1>
+            <p>Pricing plans that fit like a glove.</p>
+            <div class="buts">
+                <button class="btn-free modal-btn">Try It Free</button>
+                <button class="btn-demo">Get a Demo</button>
+            </div>
+            <div class="ratings">
+                <div class="stars">
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                </div>
+                <div class="business">
+                    <p>5,200 businesses use FlowerApp and they rate it as 5-stars.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal  Overlay -->
+    <div class="modal-overlay">
+        <div class="modal-container">
+            <h1>Sign Up</h1>
+            <form action="">
+                <div class="form-group">
+                    <label for="">Username</label>
+                    <input type="text" />
+                </div>
+
+                <div class="form-group">
+                    <label for="">Last name</label>
+                    <input type="text" />
+                </div>
+
+                <div class="form-group">
+                    <label for="">First name</label>
+                    <input type="text" />
+                </div>
+
+                <div class="form-group">
+                    <label for="">Other names</label>
+                    <input type="text" />
+                </div>
+
+                <div class="form-group">
+                    <label for="">Email </label>
+                    <input type="email" />
+                </div>
+
+                <div class="form-group">
+                    <label for="">Enter password </label>
+                    <div class="pass">
+                        <input type="password" />
+                        <span><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Confirm password </label>
+                    <div class="pass">
+                        <input type="password" id="password" />
+                        <span><i class="fa-solid fa-eye" view></i></span>
+                    </div>
+                </div>
+
+                <button class="btn-demo submit">Submit</button>
+            </form>
+
+            <button class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footies">
+            <div class="f_img">
+                <img src="/images/Flowerapp2.svg" alt="" />
+                <p>The last team chat you will ever need.</p>
+            </div>
+            
+            <div class="help">
+                <h4>Help</h4>
+                <ul>
+                    <li>Support</li>
+                    <li>Knowledgebase</li>
+                    <li>Tutorials</li>
+                </ul>
+            </div>
+            <div class="Features">
+                <h4>Features</h4>
+                <ul>
+                    <li>Screen Sharing</li>
+                    <li>iOS & Android Apps</li>
+                    <li>File Sharing</li>
+                    <li>User Management</li>
+                </ul>
+            </div>
+            <div class="Company">
+                <h4>Company</h4>
+                <ul>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>COntact Us</li>
+                </ul>
+            </div>
+            <div class="Contact_Us">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li>info@chatapp.com</li>
+                    <li>+234 7061 000 7337</li>
+                    <li>3500 Deer Creek Rd Palo Alto, CA</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            <p>© Copyright ChatApp Inc.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" 
+    integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" 
+    integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
