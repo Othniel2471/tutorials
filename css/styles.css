@@ -216,7 +216,7 @@ header 1
     background: #e0e2ef;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .header1 {
@@ -369,7 +369,7 @@ header 3
 }
 
 .stars {
-    width: 50%;
+    width: 70%;
     color: #fba229;
 }
 
@@ -381,6 +381,7 @@ header 3
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
+    
 }
 
 
@@ -570,14 +571,15 @@ media queries
         margin-top: -1.2rem;
         display: block;
         margin-bottom: 5rem;
+        
     }
 
     .flower img {
-    height: 40rem;
+    height: 40%;
     margin-bottom: 6rem;
-    margin-top: 50rem;
-    margin-left: -19rem;
-    width: 15rem;
+    margin-top: 37rem;
+    margin-left: -22rem;
+    width: 20rem;
 }
  .nav-toggle {
     font-size: 1.5rem;
